@@ -8,9 +8,10 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { BodyComponent } from './components/body/body.component';
+import { ButtonComponent } from './components/button/button.component';
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, BodyComponent],
+  declarations: [AppComponent, NavbarComponent, BodyComponent, ButtonComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,

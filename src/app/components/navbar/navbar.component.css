@@ -1,70 +1,11 @@
 .nav-main {
   /* border: 3px solid red; */
   height: 80px;
+  background-color: white;
 }
 img {
   margin-left: 20px;
 }
 .spacer {
   flex: 1 1 auto;
-}
-.button-div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  column-gap: 1em;
-  box-sizing: border-box;
-  min-height: 80px;
-  padding: 0 15px;
-  font-size: 0.875rem;
-  text-decoration: none;
-}
-
-a {
-  margin: 0;
-  border: none;
-  overflow: visible;
-  font: inherit;
-  color: inherit;
-  text-transform: none;
-  -webkit-appearance: none;
-  border-radius: 3px;
-  display: flex;
-  align-items: center;
-  box-sizing: border-box;
-  padding: 0 30px;
-  vertical-align: middle;
-  font-size: 0.875rem;
-  font-weight: 200;
-  line-height: 38px;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: 0.1s ease-in-out;
-  transition-property: color;
-}
-.btn1 {
-  background-color: #e4e2f3;
-  color: #25214f;
-  border: transparent;
-}
-.btn1:hover {
-  background-color: #25214f;
-  color: #e4e2f3;
-}
-.btn2 {
-  background-color: #25214f;
-  color: #e4e2f3;
-  border: transparent;
-}
-.btn2:hover {
-  background-color: #e4e2f3;
-  color: #25214f;
-}
-
-i {
-  font-size: 1.2rem;
-  font-weight: 200;
-  margin-left: 5px;
-  /* border: 3px solid blue; */
 }

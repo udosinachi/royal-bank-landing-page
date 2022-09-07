@@ -112,7 +112,8 @@ i {
   color: #e4e2f3;
   border: transparent;
 }
-.btn-mobile-two :hover {
+.btn-mobile-two:hover {
   background-color: #e4e2f3;
   color: #25214f;
+  border: transparent;
 }

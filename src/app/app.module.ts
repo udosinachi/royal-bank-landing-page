@@ -9,9 +9,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { BodyComponent } from './components/body/body.component';
 import { ButtonComponent } from './components/button/button.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, BodyComponent, ButtonComponent],
+  declarations: [AppComponent, NavbarComponent, BodyComponent, ButtonComponent, FooterComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
